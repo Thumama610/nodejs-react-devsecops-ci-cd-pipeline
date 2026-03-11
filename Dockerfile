@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the rest of the application code to the working directory
-COPY src/ src/
+COPY src src
 
 # Pass RapidAPI key to the React build
 ARG REACT_APP_RAPID_API_KEY

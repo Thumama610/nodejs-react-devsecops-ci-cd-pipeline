@@ -1,0 +1,6 @@
+README.md
+.dockerignore
+Kubernetes
+.github
+terraform
+sonar-project.properties
